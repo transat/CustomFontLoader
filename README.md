@@ -1,4 +1,4 @@
-# CustomFontLoader
+# CustomFontLoader - WIP - NOT READY FOR PRODUCTION
 
 
 A Swift package for easily loading and using custom fonts in SwiftUI applications.  
