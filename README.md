@@ -15,7 +15,7 @@ Add the CustomFontLoader package to your project using Swift Package Manager.
    
 2. (Optional) If you want to organize your font files in a subfolder within the resources folder, create the subfolder and place the font files inside.
    
-3. In your main App or Scene, call CustomFontLoader.registerFonts at startup:
+3. In your main App or Scene, call `CustomFontLoader.registerFonts` at startup:
    
    ```swift
    import CustomFontLoader
@@ -28,7 +28,7 @@ Add the CustomFontLoader package to your project using Swift Package Manager.
     }
     ```
     
-4. In your SwiftUI views, use the customFont(_:size:) modifier to apply the custom font to a text element:
+4. In your SwiftUI views, use the `customFont()` modifier to apply the custom font to a text element:
    
    ```swift
     import CustomFontLoader
@@ -44,7 +44,7 @@ Add the CustomFontLoader package to your project using Swift Package Manager.
 
 ## Example
 
-The package includes a FontListView that demonstrates how to display a list of all registered fonts, allowing users to see the appearance of each font with a sample text. To use 
+The package includes a FontListView that demonstrates how to display a list of all registered fonts. To use 
 FontListView in your app, simply add it to your SwiftUI view hierarchy:
 
    ```swift 
